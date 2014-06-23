@@ -17,7 +17,7 @@ permalink: /blog/
 	    <article class="post-content">
 		<h3 class="text-center"><a href="{{post.url | prepend: site.baseurl }}">{{post.title}}</a></h3>
 	    	{{post.excerpt}}
-			<img src="{{post.cover_img}}" />
+			<img src="{{post.cover_img | prepend: site.baseurl}}" />
 	    </article>
 		<hr />
 	  </div>
