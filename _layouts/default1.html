@@ -65,7 +65,7 @@
 </div>
 {% if page.cover_img %}
 <div class="head">
-	<img style="vertical-align: middle;" alt="Me_ballina" src="{{page.cover_img}}">
+	<img style="vertical-align: middle;" alt="Me_ballina" src="{{page.cover_img | prepend: site.baseurl }}">
 </div>
 {% endif %}
   {{ content }}
