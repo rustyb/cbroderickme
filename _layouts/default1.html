@@ -22,7 +22,7 @@
 
  <!-- <link rel="stylesheet" href="/wind_map/css/normalize.css">
   <link rel="stylesheet" href="/wind_map/css/foundation.css">-->
-  <link rel="stylesheet" href="/wind_map/css/app.css">
+  <link rel="stylesheet" href="{{site.baseurl}}/wind_map/css/app.css">
   {% for stylesheet in site.wind.stylesheets %}
     <link rel="stylesheet" href="{{ stylesheet }}">
   {% endfor %}
@@ -84,8 +84,8 @@
   </div>
 
   <!--<script src="/wind_map/js/vendor/jquery.js"></script>-->
-  <script src="/wind_map/js/media.min.js"></script>
-  <script src="/wind_map/js/foundation.min.js"></script>
+  <script src="{{site.baseurl}}/wind_map/js/media.min.js"></script>
+  <script src="{{site.baseurl}}/wind_map/js/foundation.min.js"></script>
   <script>$(document).foundation();</script>
   {% for javascript in site.wind.javascripts %}
     <script src="{{ javascript }}"></script>
