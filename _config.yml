@@ -42,11 +42,11 @@ wind:
     toggle: Menu
     right:
       - name: Dublin Transport Map
-        url: ../dublin/
+        url: /dublin/
       - name: Guide
-        url: ../guide/
+        url: /guide/
       - name: Blog
-        url: ../blog/
+        url: /blog/
      # - name: Repository
       #  url: https://github.com/rustyb
       #  class: small button
