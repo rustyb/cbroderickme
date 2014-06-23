@@ -5,6 +5,9 @@
 #baseurl: ""
 #url: "http://yourdomain.com"
 
+safe: true
+lsi: false
+
 # Build settings
 markdown: kramdown
 permalink: pretty
