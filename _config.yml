@@ -1,0 +1,49 @@
+# Site settings
+#title: Your awesome title
+#email: your-email@domain.com
+#description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+#baseurl: ""
+#url: "http://yourdomain.com"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+markdown: kramdown
+relative_permalinks: true
+exclude:
+  - CNAME
+  - Gemfile
+  - Gruntfile.js
+  - LICENSE
+  - node_modules/
+  - package.json
+  - Rakefile
+  - README.md
+  - vendor/
+
+#layouts: ./_noita
+
+wind:
+  name: Wind Map
+  description: Jekyll theme built with Foundation
+  author:
+    name: Colin Broderick
+    url: http://cbroderick.me/
+  lang: en
+  stylesheets:
+    - /css/extra.css
+  favicons:
+    - /assets/2014/04/21/favicon-152.png
+  topbar:
+    toggle: Menu
+    right:
+      - name: Dublin Transport Map
+        url: /dublin/
+      - name: Guide
+        url: /guide/
+      - name: Blog
+        url: /blog/
+     # - name: Repository
+      #  url: https://github.com/rustyb
+      #  class: small button

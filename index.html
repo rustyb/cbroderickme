@@ -1,0 +1,69 @@
+---
+layout: default1
+cover_img: /media/header_map.png
+---
+
+<div class="header row">
+	<div class="small-3 columns">
+		<img class="me" alt="Me_ballina" src="/media/colin.jpg">
+	</div>
+	<div class="small-8 columns end">
+		<h3><b>Hello!</b> My name is <b>Colin</b> and I'm a spatial planner, web developer and map maker who floats between Dublin, Lisboa and Münster. Welcome to my personal portfolio website, hope you like it.</h3>
+		<p><b>@rusty1052 LinkedIn GitHub</b></p>
+	</div>
+</div>
+
+
+<div class="dark">
+	<div class="row">
+		<div class="small-12 small-centered columns">
+			<h2 class="text-center title-section-1">I love to make tasty things.</h2>
+			<h3 class="text-center title-section-s"><small>Transportation, planning and mapping are my passions. I am the creator of the first integrated transport map for Dublin.</small></h3>
+		</div>
+	</div>
+	<div class="row">
+		  <div class="small-12 columns">
+			  <ul id="portfolio" class="large-block-grid-4">
+			{% for post in site.categories.work limit: 8 %}
+  	  			<li>
+  					<div class="gallery-item">
+  						<div id="img">
+  						<a href="{{post.url | prepend: site.baseurl }}"><img alt="{{post.title}}" src="{{post.thumb}}"></a>
+  						</div>
+  						<div class="gallery-text">
+  							<h3 class="text-default">
+  								<a href="{{post.url | prepend: site.baseurl }}">{{post.message}}</a>
+  							</h3>
+  						</div>
+  					</div>
+  				</li>
+			{% endfor %}
+			  </ul>
+		 </div>
+	</div>
+</div>
+
+
+<div class="section row">
+	<div class="large-5 columns">
+  	  <h3 class="title-section-1">Get in Touch</h3>
+		<p>Like what you have seen? Yes? Well come on get in touch then, send me a message and I could work for you. Also you can email me at <b>colin@cbroderick.me</b></p>
+		<iframe height="760" allowtransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none" src="http://cbroderick.wufoo.com/embed/z7x3k1/">&lt;a href="http://cbroderick.wufoo.com/forms/z7x3k1/"&gt;Fill out my Wufoo form!&lt;/a&gt;</iframe>
+	</div>
+	<div class="large-7 columns">
+	  <h3 class="title-section-1">Posts of Interest</h3>
+	  <ul class="posts no-bullet">
+	    {% for post in site.categories.blog %}
+	      <li>
+	        <span class="label">{{ post.date | date: "%b %-d, %Y" }}</span>
+	        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+			<p>
+				{{post.excerpt}}
+			</p>
+	      </li>
+	    {% endfor %}
+	  </ul>
+
+	  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+	</div>
+</div>

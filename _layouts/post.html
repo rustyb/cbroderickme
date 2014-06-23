@@ -1,0 +1,43 @@
+---
+layout: default1
+---
+<div class="post">
+	<div class="row">
+	  <div class="small-12 large-8 large-offset-3 columns end">
+	    <header class="post-header">
+	      <h2 class="title-section-1">{{ page.title }}</h2>
+	      <p class="meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+	    </header>
+	  </div>
+	</div>
+  
+	<div class="row">
+  	  <div class="large-3 columns">
+  	    <p class="text-center"><img class="me" alt="Me_ballina" src="/media/colin.jpg"></p>
+		<p><em>Dublin Transport map creator. Mapper. Open Data guy. Busting into the spatial planning & GIS world one step at a time.</em></p>
+  	  </div>
+	  <div class="small-12 large-8 columns end">
+	    <article class="post-content">
+	    {{ content }}
+	    </article>
+		<hr />
+		<a href="http://twitter.com/intent/tweet?status={{page.title}}: {{ page.url | prepend: site.baseurl }} via @rusty1052">
+			<div class="row">
+				<div class="small-2 columns">
+	  		      <div class="text-center dot white">
+	  		        <span class="icon inline twitter js-twitter-count pad1y"><img src="/media/twitter_32.png"/></span>
+	  		      </div>
+				</div>
+				<div class="small-10 columns">
+	  		      <div class="prose prose-big tweet-contents pad1y">
+	  		        <span class="strong quiet">Tweet:</span>
+	  		        <p class="strong truncate">"{{page.title}}"</p>
+	  		      </div>
+				</div>
+			</div>		      
+		    </a>
+			<hr/>
+	  </div>
+	</div>
+	
+</div>
