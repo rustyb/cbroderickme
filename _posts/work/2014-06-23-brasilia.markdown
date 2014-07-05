@@ -8,6 +8,14 @@ slider: true
 client: "BrasiliaTransport"
 year: "2011 - Present"
 weblink: "http://www.dit.ie/campuslife/transport/"
+slider_imgs:
+ - "/media/work/brasilia/brasilia_map_0.png"
+ - "/media/work/brasilia/brasilia_map_2.png"
+ - "/media/work/brasilia/brasilia_map_1.png"
+ - "/media/work/brasilia/brasilia_map_3.png"
+ - "/media/work/brasilia/brasilia_map_5.png"
+ 
+
 ---
 
 I designed the maps and refreshed the brochure for the Brasilia Transport Map and Guide. A key piece of this project was preparing a map for Match Days for the 2014 World Cup in Brasilia.
