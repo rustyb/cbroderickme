@@ -1,0 +1,41 @@
+---
+layout: default1
+---
+<div class="row">
+			<div class="your-class">
+			  <div><img src="http://www.cbroderick.me/assets/portfolio/dit_map/citycentre-22c0b21205af810734b0ceb3871b563b.png" /></div>
+			  <div><img src="http://www.cbroderick.me/assets/portfolio/dit_map/rear-e85104b2093bd7283102949b23458664.png"></div>
+			</div>
+</div>
+
+<div id="name">
+	<div class="row">
+  	  
+	  <div class="small-12 small-centered large-8 columns end">
+	    <article class="post-content">
+			<h2>{{page.title}}</h2>
+	    {{ content }}
+		<div class="client">
+			Client: <b>{{page.client}}</b> Year: <b>{{page.year}}</b> View: <b><a href="{{page.weblink}}">Go to website</a></b>
+		</div>
+	    </article>
+		<hr />
+		<a href="http://twitter.com/intent/tweet?status={{page.title}}: {{ page.url | prepend: site.baseurl }} via @rusty1052">
+			<div class="row">
+				<div class="small-2 columns">
+	  		      <div class="text-center dot white">
+	  		        <span class="icon inline twitter js-twitter-count pad1y"><img src="{{site.baseurl}}/media/post-24.png"/></span>
+	  		      </div>
+				</div>
+				<div class="small-10 columns">
+	  		      <div class="prose prose-big tweet-contents pad1y">
+	  		        <span class="strong quiet">Like what you see?</span>
+	  		        <p class="strong truncate">Maybe you should say hello at hello@cbroderick.me</p>
+	  		      </div>
+				</div>
+			</div>		      
+		    </a>
+			<hr/>
+	  </div>
+	</div>
+</div>

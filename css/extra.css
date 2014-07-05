@@ -27,3 +27,7 @@
 .white{color:#FFF;}
 .grey {background:#f7f7f7; color:#384047;}
 .grey h2, .grey h3 small {color:#384047;}
+.slick-slider .slick-list {max-height:300px;}
+.client {text-transform:uppercase;color:#6f6f6f;font-size:70%;}
+.client b {padding-right:10px;}
+.client b:hover {color:#222;padding-right:10px;}

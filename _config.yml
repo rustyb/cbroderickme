@@ -11,7 +11,6 @@ lsi: false
 # Build settings
 markdown: kramdown
 permalink: pretty
-
 markdown: kramdown
 relative_permalinks: true
 exclude:
@@ -33,10 +32,9 @@ wind:
   author:
     name: Colin Broderick
     url: http://cbroderick.me/
-	linkedin: http://ie.linkedin.com/in/colinbroderick/
-	twitter: http://www.twitter.com/rusty1052
-	github: http://www.github.com/rustyb
-	
+    linkedin: http://ie.linkedin.com/in/colinbroderick/
+    twitter: http://www.twitter.com/rusty1052
+    github: http://www.github.com/rustyb
   lang: en
   stylesheets:
     - /css/extra.css
@@ -47,6 +45,8 @@ wind:
     right:
       - name: Dublin Transport Map
         url: /dublin/
+      - name: Contact
+        url: /hello/
       - name: Blog
         url: /blog/
      # - name: Repository
