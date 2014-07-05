@@ -1,25 +1,20 @@
 ---
-layout: post
+layout: work
 title:  "Urban Rural"
 categories: work
 message: "Find your Local Heritage - #Apps4Fingal Entry"
 thumb: /media/work/urbanrural.png
+slider: true
+client: "Fingal OpenData Competition"
+year: "2012"
+weblink: "http://urbanrural.herokuapp.com/"
+slider_imgs:
+ - "/media/work/urban_rural/urbanrural_1.png"
+ - "/media/work/urban_rural/urbanrural_2.png"
+ - "/media/work/urban_rural/urbanrural_3.png"
+ - "/media/work/urban_rural/urbanrural_4.png"
 ---
-
-You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
-To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
-
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
-
-[jekyll-gh]: https://github.com/jekyll/jekyll
-[jekyll]:    http://jekyllrb.com
-
+UrbanRural was a web app I developed for the #AppsforFingal, Fingal Open Data competition.
+It was shortlisted for inclusion on the competition website. The premise for this app was to
+allow people to discover the unique pieces of built heritage within Fingal they may not
+have been aware even existed. This app used data from the Fingal Open Data Store on protected structures.

@@ -1,25 +1,19 @@
 ---
-layout: post
+layout: work
 title:  "Dublin Frequent Transport Map"
 categories: work
 message: "Dublin's first integrated transport map."
 thumb: /media/work/dtm.jpg
+slider: true
+client: "Personal work"
+year: "2011 - Present"
+weblink: "http://www.cbroderick.me/dublin/"
+slider_imgs:
+ - "/media/work/dtm/dtm_0.png"
+ - "/media/work/dtm/dtm_1.png"
+ - "/media/work/dtm/dtm_2.png"
+ - "/media/work/dtm/dtm_3.png"
+ - "/media/work/dtm/dtm_4.png"
 ---
 
-You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
-To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
-
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
-
-[jekyll-gh]: https://github.com/jekyll/jekyll
-[jekyll]:    http://jekyllrb.com
-
+This is my own design for the first integrated transport map for Dublin, Ireland. Whether you're a native, coming to Dublin for the first time or simply visiting this is Your only guide to the best of Dublin Transport! Never get the wrong Bus, Train or Luas again! Delivered as an A3 Sized pdf.

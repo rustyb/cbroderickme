@@ -1,25 +1,23 @@
 ---
-layout: post
+layout: work
 title:  "DIT Travel Guide"
 categories: work
 message: "Travel Advice & Map for students and staff of DIT."
 thumb: /media/work/dit_map.png
+slider: true
+client: "Dublin Institute of Technology"
+year: "2011 - Present"
+weblink: "http://www.dit.ie/campuslife/transport/"
+slider_imgs:
+ - "/media/work/dit/dit_0.png"
+ - "/media/work/dit/dit_00.png"
+ - "/media/work/dit/dit_1.png"
+ - "/media/work/dit/dit_2.png"
+ - "/media/work/dit/dit_3.png"
 ---
 
-You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
-To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
-
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
-
-[jekyll-gh]: https://github.com/jekyll/jekyll
-[jekyll]:    http://jekyllrb.com
-
+This map was created for the Students and Staff of Dublin Institute of Technology 
+to aid travel goals of the organization by promoting public transport, walking and 
+cycling to work and college. This map is delivered to every incoming student to help 
+them orientate themselves to DIT's diverse number of locations. Many students will not
+ have lived in Dublin before, so this allows them to get their bearings in the city. 
