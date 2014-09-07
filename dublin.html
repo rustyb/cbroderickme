@@ -1,0 +1,51 @@
+---
+layout: default1
+cover_img: /media/header_map.png
+title: Dublin Frequent Transport Map
+---
+
+<div style="padding-top:50px;">
+	<div class="row">
+		<div class="medium-7 columns text-center">
+			<img style="max-width: 400px; padding-bottom:21%;" src="{{"/media/transport_map/map/dtm_map_p1.jpg" | prepend: site.baseurl}}">
+		</div>
+		<div class="medium-5 columns">
+			<h1 class=" title-section-1">Dublin Frequent Transport Map</h1>
+			<h3 class="title-section-s" style="line-height:1;padding-bottom:10px;"><small>Your only guide to the best of Dublin Transport for only €5 with 12 months updates!</small></h3>
+			<p style="color:#6f6f6f;font-weight:300;">Whether you're a native, coming to Dublin for the first time or simply visiting this is. Never get the wrong Bus, Train or Luas again! Delivered to you as an A3 Sized pdf, ready to print or carry on your phone.</p>
+			<p style="color:#6f6f6f;font-weight:300;">Now complemented by an map of the main tourist area of Dublin showing all the key stops for the routes shown on the Frequent Transport Map. </p>
+			<p><a class="button large expand radius success" href="https://dublintransportmap.dpdcart.com/cart/buy?product_id=38424&product_price_id=38588&gateway=paypal"> Buy One Now!</a><img src="https://www.paypalobjects.com/webstatic/mktg/logo/AM_SbyPP_mc_vs_dc_ae.jpg"></p>
+		</div>
+	</div>
+	
+</div>
+
+
+<div class="dark">
+	<div class="row">
+		<div class="small-12 small-centered columns">
+			<h2 class="text-center title-section-1">I love to make tasty things.</h2>
+			<h3 class="text-center title-section-s"><small>Transportation, planning and mapping are my passions. I am the creator of the first integrated transport map for Dublin.</small></h3>
+		</div>
+	</div>
+	<div class="row">
+		  <div class="small-12 columns">
+			  <ul id="portfolio" class="large-block-grid-4">
+			{% for post in site.categories.work limit: 8 %}
+  	  			<li>
+  					<div class="gallery-item">
+  						<div id="img">
+  						<a href="{{post.url | prepend: site.baseurl }}"><img alt="{{post.title}}" src="{{post.thumb | prepend: site.baseurl }}"></a>
+  						</div>
+  						<div class="gallery-text">
+  							<h3 class="text-default">
+  								<a href="{{post.url | prepend: site.baseurl }}">{{post.message}}</a>
+  							</h3>
+  						</div>
+  					</div>
+  				</li>
+			{% endfor %}
+			  </ul>
+		 </div>
+	</div>
+</div>
