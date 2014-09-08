@@ -17,6 +17,7 @@
 }
 .gallery-item {background:#FFF; -webkit-border-radius: 4px;-moz-border-radius: 4px;-ms-border-radius: 4px;-o-border-radius: 4px;border-radius: 4px;}
 .gallery-item .gallery-text a {padding: 16px;display: block;height: 110px;color: #222;}
+.dtm .gallery-item .gallery-text a {padding: 16px;height: inherit;display: block;color: #222;}
 .text-default {font: 400 16px/20px 'Helvetica Neue';color: #999;}
 /* POSTS PAGE */
 .dot {padding: 20px 0; background: #f7f7f7; height: 80px; display:block; width: 80px;border-radius:50%;}
