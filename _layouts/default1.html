@@ -31,6 +31,10 @@
   {% endif %}
 </head>
 <body>
+	{% if page.parralax == true %}
+	{% include parallex.html %}
+	<div id="skrollr-body"><!-- extra div for parallax insert foot here -->
+	{% endif %}
 <div style="border-top: solid 8px #D76741; border-bottom: solid 1px #e5e5e5;">
 	
 
@@ -66,21 +70,21 @@
     </div>
 </div>
 </div>
+
+
 {% if page.cover_img %}
 <div class="head">
 	<img style="vertical-align: middle;" alt="Me_ballina" src="{{page.cover_img | prepend: site.baseurl }}">
 </div>
 {% endif %}
-{% if page.parralax == true %}
-<div id="skrollr-body"><!-- extra div for parallax insert foot here -->
-{% endif %}
+
 {{ content }}
 <!-- insert foot here -->
-  <div class="row">
+  <div class="row" >
     <div class="column">
       <hr>
     </div>
-    <div class="small-8 columns">
+    <div id="done" data-bottom="top: 0%;" data-top="top: 0%;" class="small-8 columns">
       <p>© 2014 <a href="http://github.com/rustyb/">Colin Broderick</a>. Source code is available on
       the <a href="https://github.com/rustyb/cbroderickme">GitHub</a>.</p>
     </div>
