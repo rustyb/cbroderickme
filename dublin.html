@@ -2,9 +2,27 @@
 layout: default1
 cover_img: /media/header_map.png
 title: Dublin Frequent Transport Map
+parralax: true
 ---
 
-<div style="padding-top:50px;">
+<div
+		class="parallax-image-wrapper parallax-image-wrapper-50"
+		data-anchor-target="#dragons + .gap"
+		data-bottom-top="transform:translate3d(0px, 300%, 0px)"
+		data-top-bottom="transform:translate3d(0px, 0%, 0px)">
+
+		<div
+			class="parallax-image parallax-image-50"
+			style="background-image:url({{"/media/transport_map/map/dtm_map_p2_para.jpg" | prepend: site.baseurl}})"
+			data-anchor-target="#dragons + .gap"
+			data-bottom-top="transform: translate3d(0px, -60%, 0px);"
+			data-top-bottom="transform: translate3d(0px, 60%, 0px);"
+		></div>
+		<!--the +/-80% translation can be adjusted to control the speed difference of the image-->
+	</div>
+
+	
+<div id="dragons" style="padding-top:50px;">
 	<div class="row">
 		<div class="medium-7 columns text-center">
 			<img style="max-width: 400px; padding-bottom:21%;" src="{{"/media/transport_map/map/dtm_map_p1.jpg" | prepend: site.baseurl}}">
@@ -20,8 +38,9 @@ title: Dublin Frequent Transport Map
 	
 </div>
 
+<div class="gap gap-50" style="background-image:url({{"/media/transport_map/map/dtm_map_p2_para.jpg" | prepend: site.baseurl}});"></div>
 
-<div class="dark">
+<div id="done" class="dark">
 	<div class="row">
 		<div class="medium-4 columns">
 			<h2 class=" title-section-1">Why buy this map?</h2>
@@ -130,7 +149,7 @@ title: Dublin Frequent Transport Map
  	  			<li>
  					<div class="gallery-item">
  						<div id="img">
- 						<a href="#"><img src="{{"/media/transport_map/thumbs/print.png" | prepend: site.baseurl}}"></a>
+ 						<a href="#"><img src="{{"/media/transport_map/thumbs/city.png" | prepend: site.baseurl}}"></a>
  						</div>
  						<div class="gallery-text">
  							<h3 class="text-default" >
@@ -145,7 +164,7 @@ title: Dublin Frequent Transport Map
 	</div>
 </div>
 
-<div style="padding-top:50px;">
+<div style="padding-top:50px; padding-bottom:80px;">
 	<div class="row">
    	  <div class="medium-8 columns">
 		  <blockquote style="font-size:2em; font-weight:100; font-style:italic;">Find your way around Dublin with the Dublin Frequent Transport Map it's really cool! See <a href="http://bit.ly/1qHezFC" style="font-weight:400;">bit.ly/1qHezFC</a> <b style="font-weight:300;">#dtm #dublin</b></blockquote>
@@ -178,14 +197,14 @@ title: Dublin Frequent Transport Map
 	</div>
 </div>
 
-<div style="padding-top:50px;">
+<div class="dark">
 	<div class="row">
 		<div class="medium-5 columns">
-			<h1 class=" title-section-1">Large prints also available</h1>
+			<h2 class=" title-section-1">Large prints also available!</h2>
 			<h3 class="title-section-s" style="line-height:1;padding-bottom:10px;"><small>Through my store on <a href="http://society6.com/colinbroderick">Society6</a>  you can order large prints of the map up to 28" X 38" in size.</small></h3>
-			<p style="color:#6f6f6f;font-weight:300;">An ideal gift for the transport and map nerd in your family. Also fantastic for adorning your bland office wall or maybe even your cubical.</p>
-			<p style="color:#6f6f6f;font-weight:300;">Through the shop it is also possible to have the prints framed. </p>
-			<p style="color:#6f6f6f;font-weight:300;">Maybe you'd also like a throw bag or a Dublin Transport Map mug to slurp that morning coffee from while trying to decide where to go? </p>
+			<p style="font-weight:100;">An ideal gift for the transport and map nerd in your family. Also fantastic for adorning your bland office wall or maybe even your cubical.</p>
+			<p style="font-weight:100;">Through the shop it is also possible to have the prints framed. </p>
+			<p style="font-weight:100;">Maybe you'd also like a throw bag or a Dublin Transport Map mug to slurp that morning coffee from while trying to decide where to go? </p>
 			<p><a class="button large expand radius success" href="http://society6.com/colinbroderick/dublin-frequent-transport-map_print?show=promoters#1=2"> Buy One Now!</a></p>
 		</div>
 		<div class="medium-7 columns text-center">

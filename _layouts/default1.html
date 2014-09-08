@@ -71,9 +71,11 @@
 	<img style="vertical-align: middle;" alt="Me_ballina" src="{{page.cover_img | prepend: site.baseurl }}">
 </div>
 {% endif %}
-  
+{% if page.parralax == true %}
+<div id="skrollr-body"><!-- extra div for parallax insert foot here -->
+{% endif %}
 {{ content }}
-
+<!-- insert foot here -->
   <div class="row">
     <div class="column">
       <hr>
@@ -86,6 +88,9 @@
       <p class="text-right menu-icon"><a href="#topbar">&#x25B2;</a></p>
     </div>
   </div>
+  {% if page.parralax %}
+  	</div> <!-- extra div for parallax insert foot here -->
+  {% endif %}
 
   <!--<script src="/wind_map/js/vendor/jquery.js"></script>-->
   <script src="{{"/wind_map/js/media.min.js" | prepend: site.baseurl}}"></script>
@@ -105,6 +110,15 @@
               });
           });
       </script>
+  {% endif %}
+  {% if page.parralax %}
+  <script src="{{"/wind_map/js/skrollr.js" | prepend: site.baseurl}}"></script>
+  	<script type="text/javascript">
+  	skrollr.init({
+  		smoothScrolling: false,
+  		mobileDeceleration: 0.004
+  	});
+  	</script>
   {% endif %}
   {% include google.html %}
 </body>
