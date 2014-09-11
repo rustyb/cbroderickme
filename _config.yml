@@ -25,7 +25,9 @@ exclude:
   - vendor/
 
 #layouts: ./_noita
-
+gems:
+    - jekyll-redirect-from
+	
 wind:
   name: Wind Map
   description: Jekyll theme built with Foundation
