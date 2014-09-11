@@ -31,11 +31,18 @@
   {% endif %}
   
   <meta property=”og:title” content=”{{page.title}}” />
-  <meta property="og:type" content="website" />
+  <meta property="og:type" content="{{page.og_type}}" />
+  <meta property="og:url"  content="{{page.url | prepend: site.baseurl}}" /> 
+  
   {% if page.cover_img %}
   <meta property="og:image" content="{{page.cover_img | prepend: site.baseurl }}" />
   {% endif %}
   <meta property=”og:description” content=”{{page.og_desc}}” />
+  {% if page.product %}
+  <meta property="og:type"                        content="product.item" /> 
+  <meta property="product:price:amount"           content="€5.00 " />
+  <meta property="product:price:currency"           content="Euro" />
+  {% endif %}
 </head>
 <body>
 	{% if page.parralax == true %}
