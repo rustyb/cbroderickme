@@ -32,10 +32,10 @@
   
   <meta property=”og:title” content=”{{page.title}}” />
   <meta property="og:type" content="{{page.og_type}}" />
-  <meta property="og:url"  content="{{page.url | prepend: site.baseurl}}" /> 
+  <meta property="og:url"  content="{{page.url | prepend: site.url}}" /> 
   
   {% if page.cover_img %}
-  <meta property="og:image" content="{{page.cover_img | prepend: site.baseurl }}" />
+  <meta property="og:image" content="{{page.cover_img | prepend: site.url }}" />
   {% endif %}
   <meta property=”og:description” content=”{{page.og_desc}}” />
   {% if page.product %}
