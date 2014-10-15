@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 title: "Map Lesotho hits 54% complete"
 categories: lesotho update blog
