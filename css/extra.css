@@ -33,6 +33,29 @@
 .client b {padding-right:10px;}
 .client b:hover {color:#222;padding-right:10px;}
 
+.post-content p {font-weight:200;}
+.post {padding-top:50px;}
+.post p {font-weight:200;}
+.post-meta {font-weight:100;color:#999;}
+.post-date {margin-bottom: 8px;}
+.post-date:before, .post-date:after {
+content: "";
+position: absolute;
+top: 50%;
+width: 30px;
+height: 1px;
+background: #e5e5e5;
+}
+
+.post-date:before{left:-40px;}
+.post-date:after{right:-40px;}
+
+.h-pr {
+position: relative;
+}
+
+h3 {font-weight:700;}
+
 /* PARRALAX STYLES FROM skrollr -> https://github.com/Prinzhorn/skrollr/ */
 
 .skrollr-desktop body {
