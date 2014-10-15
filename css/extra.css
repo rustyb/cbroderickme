@@ -35,7 +35,7 @@
 
 .post-content p {font-weight:200;}
 .post {padding-top:50px;}
-.post p {font-weight:200;}
+.post p {font-weight:300;}
 .post-meta {font-weight:100;color:#999;}
 .post-date {margin-bottom: 8px;}
 .post-date:before, .post-date:after {
@@ -53,6 +53,8 @@ background: #e5e5e5;
 .h-pr {
 position: relative;
 }
+
+.post-header {padding-bottom:20px;}
 
 h3 {font-weight:700;}
 

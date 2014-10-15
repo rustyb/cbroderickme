@@ -4,6 +4,7 @@ layout: post
 title: "Map Lesotho hits 54 percent complete"
 categories: lesotho update blog
 cover_img: "https://maplesotho.files.wordpress.com/2014/10/screen-shot-2014-10-15-at-11-59-13.png?w=1352&h=856"
+author: "Colin Broderick"
 ---
 
 <div class="alert-box secondary radius">

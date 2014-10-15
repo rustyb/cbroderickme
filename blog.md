@@ -23,6 +23,7 @@ permalink: /blog/
 		{% if post.cover_img %}
 			<img src="{{post.cover_img | prepend: site.baseurl}}" />
 		{% endif %}
+		<a class="button radius" style="margin-top:40px;margin-bottom:40px;" href="{{post.url | prepend: site.baseurl }}">Read More</a>
 	    </article>
 		<hr />
 	  </div>
