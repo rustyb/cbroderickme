@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: "MapLesotho Edits January – 11th October"
-categories: lesotho update blog
+categories: blog
 cover_img: "http://i.imgur.com/iOfSguQ.gif"
 author: "Colin Broderick"
 ---

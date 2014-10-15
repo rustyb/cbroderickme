@@ -14,7 +14,7 @@ layout: default1
   
 	<div class="row">
   	  <div class="large-2 columns">
-  	    <p class="text-center"><img class="me" alt="Me_ballina" src="{{"/media/colin.jpg" | prepend: site.baseurl}}"></p>
+  	    <p class="text-center"><img class="me" alt="Me_ballina" src="{{"/media/colin1.jpg" | prepend: site.baseurl}}"></p>
 		<p><em>Dublin Transport map creator. Mapper. Open Data guy. Busting into the spatial planning & GIS world one step at a time.</em></p>
   	  </div>
 	  <div class="small-12 large-9 columns end">
@@ -22,6 +22,7 @@ layout: default1
 	    {{ content }}
 	    </article>
 		<hr />
+		
 		<a href="http://twitter.com/intent/tweet?status={{page.title}}: {{ page.url | prepend: site.baseurl }} via @rusty1052" target="_blank">
 			<div class="row">
 				<div class="small-2 columns">
@@ -38,6 +39,9 @@ layout: default1
 			</div>		      
 		    </a>
 			<hr/>
+			<section>
+				{% include disquis.html %}
+			</section>
 	  </div>
 	</div>
 	

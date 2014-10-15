@@ -2,7 +2,8 @@
 layout: post
 title:  "Hotspots of buildings under construction in Lesotho"
 date:   2014-06-24 12:59:39
-categories: lesotho update blog
+categories: blog
+tags: lesotho
 cover_img: /media/lesotho_construct.png
 ---
 
