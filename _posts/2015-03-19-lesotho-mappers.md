@@ -56,7 +56,7 @@ To fix this we will first use ```awk``` to add commas to the end of all our line
 awk '{print $0","}' lesotho.json > lesotho.json
 ```
 
-Next ew need to open the file and add a ```[``` to the first line of the file. 
+Next we need to open the file and add a ```[``` to the first line of the file. 
 
 Then at the last line we can delete the very last ```,``` and then add at ```]``` to close our array. I really must find a more programatic way of doing this. Suggestions welcome!
 
@@ -167,7 +167,7 @@ Now we will export this as a csv file so that we can visualize the users punchca
 res1.reset_index().to_csv('les_data.csv', encoding='utf-8', index=False, na_rep=0)
 ```
 
-**The csv file containing all of the counts is available from github - [LesothoUserChanges.csv]()**
+**The csv file containing all of the counts is available from github - [LesothoUserChanges.csv](https://github.com/rustyb/cbroderickme/blob/gh-pages/media/data/LesothoUserChanges.csv)**
 
 ### The Lesotho OSM PunchCard
 
