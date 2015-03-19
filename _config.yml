@@ -9,9 +9,12 @@ safe: true
 lsi: false
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
+#kramdown:
+#  input: GFM
+highlighter: pygments
 permalink: pretty
-markdown: kramdown
+#markdown: kramdown
 relative_permalinks: true
 exclude:
   - CNAME
