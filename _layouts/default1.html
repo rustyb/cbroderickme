@@ -119,7 +119,7 @@
   {% for javascript in site.wind.javascripts %}
     <script src="{{ javascript | prepend: site.baseurl}} }}"></script>
   {% endfor %}
-  
+  <script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
   {% if page.slider %}
   <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.3.6/slick.min.js"></script>
   <script type="text/javascript">
