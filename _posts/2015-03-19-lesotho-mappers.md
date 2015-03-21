@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Creating a punch card of #MapLesotho Mappers"
+title:  "Creating a punch card of MapLesotho Mappers"
 date:   2015-03-19 17:00:00
 categories: blog
 tags: lesotho
