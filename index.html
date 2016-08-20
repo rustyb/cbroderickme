@@ -58,7 +58,7 @@ cover_img: /media/header_map.png
 	        <span class="label">{{ post.date | date: "%b %-d, %Y" }}</span>
 	        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 			<p>
-				{{post.excerpt}}
+				{{post.excerpt | strip_html | escape | truncatewords: 100 }}
 			</p>
 	      </li>
 	    {% endfor %}

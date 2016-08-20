@@ -2,7 +2,7 @@
 layout: default1
 cover_img: /media/header_map.png
 title: Dublin Frequent Transport Map
-permalink: /dublin_transport_map/thank_you
+permalink: ./dublin_transport_map/thank_you
 ---
 
 <div style="padding-top:50px;">

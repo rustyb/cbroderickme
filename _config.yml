@@ -9,13 +9,12 @@ safe: true
 lsi: false
 
 # Build settings
-markdown: redcarpet
 #kramdown:
 #  input: GFM
 highlighter: pygments
 permalink: pretty
 #markdown: kramdown
-relative_permalinks: true
+#relative_permalinks: true
 exclude:
   - CNAME
   - Gemfile
@@ -26,6 +25,7 @@ exclude:
   - Rakefile
   - README.md
   - vendor/
+  - wind_map
 
 #layouts: ./_noita
 gems:
