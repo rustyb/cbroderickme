@@ -1,10 +1,9 @@
 ---
 layout: post
 title:  "OSM changeset powered slack notifications"
-date:   2016-08-20 19:00:00
+date:   2016-08-20 18:00:00
 categories: blog
 tags: MapLesotho, slack, OSM
-published: false
 ---
 
 *It's been quite a while since I fired up a post on the blog. So here it goes my attempt to get back into it full swing.*

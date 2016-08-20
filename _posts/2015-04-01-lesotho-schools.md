@@ -6,7 +6,7 @@ categories: blog
 tags: lesotho, schools
 ---
 
-<iframe width="100%" height="615" src="http://bl.ocks.org/rustyb/raw/f9cda0b23a74e94e5927/" frameborder="0" allowfullscreen>
+<iframe width="100%" height="615" src="https://rawgit.com/rustyb/f9cda0b23a74e94e5927/raw/b09aac03ee1c34958c2e9233df45bbbcd13eb110/" frameborder="0" allowfullscreen>
 </iframe>
 
 I have been experimenting with some simple examples from [```turf.js```](http://turfjs.org) and [```mapbox.js```](https://www.mapbox.com/guides/javascript-and-mapboxjs-fundamentals/). 
