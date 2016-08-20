@@ -45,18 +45,13 @@ cover_img: /media/header_map.png
 
 
 <div class="section row">
-	<div class="large-5 columns">
-  	  <h3 class="title-section-1">Get in Touch</h3>
-		<p>Like what you have seen? Yes? Well come on get in touch then, send me a message and I could work for you. Also you can email me at <b>colin@cbroderick.me</b></p>
-		<iframe height="800" allowtransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none" src="http://cbroderick.wufoo.com/embed/z7x3k1/">&lt;a href="http://cbroderick.wufoo.com/forms/z7x3k1/"&gt;Fill out my Wufoo form!&lt;/a&gt;</iframe>
-	</div>
-	<div class="large-7 columns">
+	<div class="large-7 columns small-centered">
 	  <h3 class="title-section-1">Recently</h3>
 	  <ul class="posts no-bullet">
 	    {% for post in site.categories.blog %}
 	      <li>
-	        <span class="label">{{ post.date | date: "%b %-d, %Y" }}</span>
 	        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+	        <!-- <div class="block"><span class="label">{{ post.date | date: "%b %-d, %Y" }}</span></div> -->
 			<p>
 				{{post.excerpt | strip_html | escape | truncatewords: 100 }}
 			</p>
@@ -64,6 +59,15 @@ cover_img: /media/header_map.png
 	    {% endfor %}
 	  </ul>
 
-	  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+	  <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
+	</div>
+</div>
+
+<div class="section row">
+<hr>
+<div class="large-7 columns small-centered">
+  	  <h3 class="title-section-1">Get in Touch</h3>
+		<p>Like what you have seen? Yes? Well come on get in touch then, send me a message and I could work for you. Also you can email me at <b>colin@cbroderick.me</b></p>
+		<iframe height="800" allowtransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none" src="http://cbroderick.wufoo.com/embed/z7x3k1/">&lt;a href="http://cbroderick.wufoo.com/forms/z7x3k1/"&gt;Fill out my Wufoo form!&lt;/a&gt;</iframe>
 	</div>
 </div>
