@@ -1,6 +1,11 @@
 ---
-published: false
+layout: post
+title:  "Wrestling with jekyll and timezones"
+categories: blog
+tags: jekyll, headaches
+published: true
 ---
+
 This post is meerly to serve as a note for anyone suffering the same issue I had yesterday! 
 
 Currently I live in Brussels so UTC +1 OR +1000. It turns out jekyll (our favourite blogging engine) can get it's wires crossed when you create a new post and are using the date slug created by the `post_render`hook.
