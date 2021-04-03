@@ -28,7 +28,7 @@ exclude:
   - wind_map
 
 #layouts: ./_noita
-gems:
+plugins:
    - jekyll-redirect-from	
 wind:
   name: Wind Map
