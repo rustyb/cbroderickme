@@ -22,4 +22,4 @@ Below you can find a map showing the current hotspots of under construction buil
 
 <iframe width='100%' height='520' frameborder='0' src='https://rustyb.cartodb.com/viz/45f91a24-fa48-11e3-bfbb-0e73339ffa50/embed_map?title=true&description=true&search=false&shareable=true&cartodb_logo=true&layer_selector=false&legends=true&scrollwheel=true&fullscreen=true&sublayer_options=1%7C1&sql=&sw_lat=-29.893638675969147&sw_lon=27.06035614013672&ne_lat=-29.759906830693676&ne_lon=27.495346069335938' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
-<iframe width='100%' height='520' frameborder='0' src='http://bl.ocks.org/anonymous/raw/4dbebc465e0c110416f0' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+<iframe width='100%' height='520' frameborder='0' src='https://bl.ocks.org/anonymous/raw/4dbebc465e0c110416f0' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>

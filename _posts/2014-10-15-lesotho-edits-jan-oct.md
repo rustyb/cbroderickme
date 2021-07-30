@@ -3,7 +3,7 @@ published: true
 layout: post
 title: "MapLesotho Edits January – 11th October"
 categories: blog
-cover_img: "http://i.imgur.com/iOfSguQ.gif"
+cover_img: "https://i.imgur.com/iOfSguQ.gif"
 author: "Colin Broderick"
 ---
 
@@ -17,6 +17,6 @@ Now maybe is a time to look back at the massive amount of edits made by everyone
 
 Below is an animation showing the diff’s (the changes made to the OSM database) from January to 11th October 2014.
 
-![](http://i.imgur.com/iOfSguQ.gif)
+![](https://i.imgur.com/iOfSguQ.gif)
 
 Spread the word we’re only counting down to completing the first pass of the Open Street Map basemap for Lesotho now, 48% to go! [Give us a hand by taking a tile on our HOT OSM Rural Task](http://bit.ly/map_lesotho).

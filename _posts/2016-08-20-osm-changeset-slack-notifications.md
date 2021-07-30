@@ -16,7 +16,7 @@ My tool of choice is Development Seed's [planet-stream](https://github.com/devel
 
 For each changeset we know's it's bounding box through it's min_lat, max_lon, max_lot, min_lon values, so we do a simple check to see if these are with in the bounds of Lesotho and part of South Africa. If the changeset passes this test it is then passed to a function which posts a webhook to our slack channel.
 
-![Imgur - slackbot in action](http://i.imgur.com/0rltXC2.png)
+![Imgur - slackbot in action](https://i.imgur.com/0rltXC2.png)
 
 The result being that my phone is constantly buzzing off the table as the changes ring in, particularly at odd hours of the night.
 

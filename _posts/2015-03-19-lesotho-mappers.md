@@ -173,10 +173,10 @@ res1.reset_index().to_csv('les_data.csv', encoding='utf-8', index=False, na_rep=
 
 A quick seach on google came up with a simple d3.js script called [D3.js Punch Card](https://github.com/joshcarr/d3.punchcard/blob/master/index.html) which will produce a punch card just like those in your github repositories.
 
-<iframe width="100%" height="315" src="http://bl.ocks.org/rustyb/raw/8e56d790f9a244ee5cbe/" frameborder="0" allowfullscreen>
+<iframe width="100%" height="315" src="https://bl.ocks.org/rustyb/raw/8e56d790f9a244ee5cbe/" frameborder="0" allowfullscreen>
 </iframe>
 
-[**View Fullscreen**](http://bl.ocks.org/rustyb/raw/8e56d790f9a244ee5cbe/)
+[**View Fullscreen**](https://bl.ocks.org/rustyb/raw/8e56d790f9a244ee5cbe/)
 
 This still needs to be improved to sort out the total column to show a number all the time rather than another circle.
 

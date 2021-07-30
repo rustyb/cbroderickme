@@ -23,15 +23,15 @@ Enough rambling about the fare increases, what about the map updates!?
 
 New grid for the inner city map on the back. I guess I should have done this a long time ago, it was awful hard to find the inner city stops!
 
-![city grid](http://i.imgur.com/acLJHX9.png)
+![city grid](https://i.imgur.com/acLJHX9.png)
 
 I have added the [Luas Green Line](https://www.luascrosscity.ie/) extension to Broombridge to the map. It is due to open in 2017. I felt now was a good time to make the addition as the construction works are most certainly noticeable in the city now.
 
-![luas](http://i.imgur.com/XlxvXL1.png)
+![luas](https://i.imgur.com/XlxvXL1.png)
 
 PRICES! Yes the price of transport is going up once again! But sure not to worry the economy is recovering so they say, so no problem for us to keep paying more.
 
-![prices](http://i.imgur.com/LMwu2ig.png)
+![prices](https://i.imgur.com/LMwu2ig.png)
 
 As always if you notice any mistakes or have any suggestions please don't hesitate to tweet me or let me know in the comments!
 
